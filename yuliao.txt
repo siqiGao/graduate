@@ -461,7 +461,6 @@ T B-LIMIT
 和 I-LIMIT
 T I-LIMIT
 2 I-LIMIT
-  O
 都 B-LIST
 飞 I-LIST
 什 I-LIST
@@ -742,7 +741,6 @@ T I-LIMIT
 水 O
 机 O
 场 O
-  O
 行 B-ENTITY
 李 I-ENTITY
 携 I-ENTITY
@@ -802,7 +800,6 @@ T I-LIMIT
 运 O
 行 O
 李 O
-  O
 需 O
 要 O
 自 O
@@ -847,12 +844,10 @@ T I-LIMIT
 水 O
 机 O
 场 O
-  O
 寄 B-ENTITY
 存 I-ENTITY
 行 I-ENTITY
 李 I-ENTITY
-  O
 可 O
 不 O
 可 O
@@ -1403,7 +1398,6 @@ T O
 休 I-ENTITY
 息 I-ENTITY
 室 I-ENTITY
-  O
 是 O
 只 O
 有 O
@@ -1415,7 +1409,6 @@ p O
 可 O
 以 O
 进 O
-  O
 还 O
 是 O
 头 O
@@ -1445,7 +1438,6 @@ T O
 休 I-ENTITY
 息 I-ENTITY
 室 I-ENTITY
-  O
 是 O
 只 O
 有 O
@@ -1457,7 +1449,6 @@ p O
 可 O
 以 O
 进 O
-  O
 还 O
 是 O
 头 O
@@ -1488,7 +1479,6 @@ p I-ENTITY
 休 I-ENTITY
 息 I-ENTITY
 室 I-ENTITY
-  O
 ？ O
 
 昆 O
@@ -2546,7 +2536,6 @@ T O
 休 I-ENTITY
 息 I-ENTITY
 室 I-ENTITY
-  O
 是 O
 只 O
 有 O
@@ -2558,7 +2547,6 @@ p O
 可 O
 以 O
 进 O
-  O
 还 O
 是 O
 头 O
@@ -2588,7 +2576,6 @@ T O
 休 I-ENTITY
 息 I-ENTITY
 室 I-ENTITY
-  O
 是 O
 只 O
 有 O
@@ -2600,7 +2587,6 @@ p O
 可 O
 以 O
 进 O
-  O
 还 O
 是 O
 头 O
@@ -2614,25 +2600,24 @@ p O
 ？ O
 ？ O
 
-昆 O
-明 O
-长 O
-水 O
-机 O
-场 O
+昆 I-ENTITY
+明 I-ENTITY
+长 I-ENTITY
+水 I-ENTITY
+机 I-ENTITY
+场 I-ENTITY
+有 I-ENTITY
+没 I-ENTITY
 有 O
-没 O
-有 O
-深 B-ENTITY
-航 I-ENTITY
-v I-ENTITY
-i I-ENTITY
-p I-ENTITY
-休 I-ENTITY
-息 I-ENTITY
-室 I-ENTITY
-  I-ENTITY
-？ O
+深 O
+航 O
+v O
+i O
+p O
+休 O
+息 O
+室 O
+？ B-ENTITY
 
 昆 O
 明 O
@@ -2920,7 +2905,6 @@ t B-LIMIT
 水 O
 机 O
 场 O
-  O
 国 B-ENTITY
 航 I-ENTITY
 贵 I-ENTITY
@@ -4010,7 +3994,6 @@ i I-ENTITY
 麦 B-ENTITY
 当 I-ENTITY
 劳 I-ENTITY
-  O
 昆 O
 明 O
 长 O
@@ -4336,7 +4319,6 @@ t O
 真 B-ENTITY
 功 I-ENTITY
 夫 I-ENTITY
-  O
 机 O
 场 O
 店 O
@@ -4575,7 +4557,6 @@ t O
 水 O
 机 O
 场 O
-  O
 行 B-ENTITY
 李 I-ENTITY
 寄 I-ENTITY
@@ -4638,7 +4619,6 @@ t O
 水 O
 机 O
 场 O
-  O
 有 O
 免 B-ENTITY
 费 I-ENTITY
@@ -5010,7 +4990,6 @@ T B-LIMIT
 递 I-ENTITY
 站 I-ENTITY
 吗 O
-  O
 能 O
 不 O
 能 O
@@ -5338,7 +5317,6 @@ T B-LIMIT
 停 B-ENTITY
 车 I-ENTITY
 场 I-ENTITY
-  O
 收 B-REL
 费 I-REL
 标 I-REL
@@ -5355,7 +5333,6 @@ w B-ENTITY
 i I-ENTITY
 f I-ENTITY
 i I-ENTITY
-  O
 验 O
 证 O
 码 O
@@ -5840,7 +5817,6 @@ I I-ENTITY
 知 O
 道 O
 : O
-  O
 昆 O
 明 O
 长 O
@@ -5854,7 +5830,6 @@ I I-ENTITY
 通 I-ENTITY
 快 I-ENTITY
 递 I-ENTITY
-  O
 在 B-REL
 哪 I-REL
 
@@ -8378,7 +8353,6 @@ i I-ENTITY
 ？ O
 
 市 O
-  O
 昆 O
 明 O
 长 O
@@ -9901,23 +9875,21 @@ t O
 充 I-ABS
 电 I-ABS
 
-求 O
-昆 O
-明 O
-长 O
+求 I-ENTITY
+昆 I-ENTITY
+明 I-ENTITY
+长 I-ENTITY
 水 O
 机 O
 场 O
-  O
-W B-ENTITY
-i I-ENTITY
-f I-ENTITY
-i I-ENTITY
-  I-ENTITY
+W O
+i O
+f O
+i O
 密 B-REL
 码 I-REL
 多 O
-少 O
+少 B-ENTITY
 
 昆 O
 明 O
@@ -10392,10 +10364,8 @@ T O
 水 O
 机 O
 场 O
-  O
 P O
 4 O
-  O
 有 O
 没 O
 有 O
@@ -10515,7 +10485,6 @@ T O
 场 O
 T O
 2 O
-  O
 航 O
 站 O
 楼 O
@@ -10780,7 +10749,6 @@ T O
 单 O
 子 O
 么 O
-  O
 谢 O
 谢 O
 
@@ -11029,7 +10997,6 @@ t O
 了 O
 各 O
 位 O
-  O
 谢 O
 谢 O
 
@@ -11196,7 +11163,6 @@ T O
 机 I-ABS
 吗 O
 ？ O
-  O
 谢 O
 谢 O
 
@@ -11374,7 +11340,6 @@ M I-ABS
 水 O
 机 O
 场 O
-  O
 外 B-ABS
 币 I-ABS
 兑 I-ABS
@@ -11712,7 +11677,6 @@ M I-ABS
 欧 O
 洲 O
 了 O
-  O
 机 O
 场 O
 哪 B-ABS
@@ -11723,7 +11687,6 @@ M I-ABS
 到 I-ABS
 欧 I-ABS
 元 I-ABS
-  O
 小 O
 面 O
 值 O
@@ -12404,7 +12367,6 @@ e O
 线 O
 车 O
 上 O
-  O
 怎 O
 么 O
 找 O
